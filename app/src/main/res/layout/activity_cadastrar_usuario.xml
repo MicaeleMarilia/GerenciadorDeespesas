@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".tela2">
+
+    <TextView
+        android:id="@+id/textViewCadastro"
+        android:layout_width="398dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginEnd="8dp"
+        android:autoText="false"
+        android:background="#228b22"
+        android:gravity="center"
+        android:text="Cadastro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="37sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="274dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Informe o Nome"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="274dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="29dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Informe o Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextNome"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="274dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="29dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Informe a Senha"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editTextConfirmeSenha"
+        android:layout_width="274dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="29dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Confirme a Senha"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextSenha"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSenha" />
+
+    <Button
+        android:id="@+id/cad_cadastrar"
+        android:layout_width="119dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="52dp"
+        android:background="#CFC8C8"
+        android:text="Cadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextConfirmeSenha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

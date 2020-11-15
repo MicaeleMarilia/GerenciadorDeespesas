@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302619565241",
+    "firebase_url": "https://rendemais-786f6.firebaseio.com",
+    "project_id": "rendemais-786f6",
+    "storage_bucket": "rendemais-786f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302619565241:android:f8772cf09c7eb350b70f68",
+        "android_client_info": {
+          "package_name": "com.example.rendemais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302619565241-4r9f9r41u52ncfjo3tqmtas6tmv5p6l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rendemais",
+            "certificate_hash": "d0f2af64825cfa1534362da2b599c54610b31843"
+          }
+        },
+        {
+          "client_id": "302619565241-26rppqsg9r1dcrbk7npgtoa0r11fld24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYVx66TecvFUSKZKIAL3cgAyG-4ChS3iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302619565241-26rppqsg9r1dcrbk7npgtoa0r11fld24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
